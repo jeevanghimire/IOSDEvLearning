@@ -104,14 +104,9 @@
 		D15D40BD2B5E9C8100B6A5BF /* FramWork */ = {
 			isa = PBXGroup;
 			children = (
-				D15D40BE2B5E9C8100B6A5BF /* FramWorkApp.swift */,
-				D15D40EE2B5EA29900B6A5BF /* FrameWorkGridView.swift */,
-				D1019C472B615E10002213F2 /* FrameWorkGridViewModel.swift */,
-				D1019C492B617AC3002213F2 /* SafariView.swift */,
-				D1019C432B60B98A002213F2 /* DetailView.swift */,
-				D1019C452B60C3E8002213F2 /* AFButton.swift */,
-				D15D40E82B5EA02400B6A5BF /* FrameWork.swift */,
-				D15D40C22B5E9C8400B6A5BF /* Assets.xcassets */,
+				D196DC882B6C8FCF002646D4 /* FrameWorks */,
+				D196DC852B6C8F85002646D4 /* Detaill Views  */,
+				D196DC872B6C8FB7002646D4 /* Assests */,
 				D15D40C42B5E9C8400B6A5BF /* Preview Content */,
 			);
 			path = FramWork;
@@ -140,6 +135,35 @@
 				D15D40DB2B5E9C8400B6A5BF /* FramWorkUITestsLaunchTests.swift */,
 			);
 			path = FramWorkUITests;
+			sourceTree = "<group>";
+		};
+		D196DC852B6C8F85002646D4 /* Detaill Views  */ = {
+			isa = PBXGroup;
+			children = (
+				D1019C492B617AC3002213F2 /* SafariView.swift */,
+				D1019C452B60C3E8002213F2 /* AFButton.swift */,
+				D1019C432B60B98A002213F2 /* DetailView.swift */,
+			);
+			path = "Detaill Views ";
+			sourceTree = "<group>";
+		};
+		D196DC872B6C8FB7002646D4 /* Assests */ = {
+			isa = PBXGroup;
+			children = (
+				D15D40C22B5E9C8400B6A5BF /* Assets.xcassets */,
+			);
+			path = Assests;
+			sourceTree = "<group>";
+		};
+		D196DC882B6C8FCF002646D4 /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				D15D40BE2B5E9C8100B6A5BF /* FramWorkApp.swift */,
+				D15D40EE2B5EA29900B6A5BF /* FrameWorkGridView.swift */,
+				D1019C472B615E10002213F2 /* FrameWorkGridViewModel.swift */,
+				D15D40E82B5EA02400B6A5BF /* FrameWork.swift */,
+			);
+			path = FrameWorks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

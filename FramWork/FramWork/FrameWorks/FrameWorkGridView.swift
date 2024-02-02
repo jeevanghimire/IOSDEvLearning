@@ -52,6 +52,7 @@ struct FrameWorkGridTitleView: View {
                 .frame(width: 90,height: 90)
             Text(frameWork.name)
                 .font(.title2)
+                .foregroundStyle(Color(.label))
                 .fontWeight(.semibold)
                 .scaledToFit()
                 .minimumScaleFactor(0.6)
