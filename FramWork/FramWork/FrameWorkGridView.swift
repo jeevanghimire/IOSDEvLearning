@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct FrameWorkGridView: View {
+    @StateObject var viewModel = FramWorkGridViewModel()
+   
     let columns: [GridItem] = [GridItem(.flexible()),
                                 GridItem(.flexible()),
                                 GridItem(.flexible())]
@@ -21,9 +23,15 @@ struct FrameWorkGridView: View {
                         FrameWork in
                         
                         FrameWorkGridTitleView(frameWork: FrameWork)
+                            .onTapGesture{
+                                viewModel.SelectedFrameWork = FrameWork
+                            }
                     }
                 }
                 .navigationTitle("FramWork")
+                .sheet(isPresented: $viewModel.isShowingDeafultView){
+                    DetailView(isShowingDetailView: $viewModel.isShowingDeafultView, framework: viewModel.SelectedFrameWork ?? MockData.sampleFramework)
+                }
             }
         }
     }

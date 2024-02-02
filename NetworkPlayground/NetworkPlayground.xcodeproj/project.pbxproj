@@ -7,71 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D1019C442B60B98A002213F2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1019C432B60B98A002213F2 /* DetailView.swift */; };
-		D1019C462B60C3E8002213F2 /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1019C452B60C3E8002213F2 /* AFButton.swift */; };
-		D1019C482B615E10002213F2 /* FrameWorkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1019C472B615E10002213F2 /* FrameWorkGridViewModel.swift */; };
-		D1019C4A2B617AC3002213F2 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1019C492B617AC3002213F2 /* SafariView.swift */; };
-		D15D40BF2B5E9C8100B6A5BF /* FramWorkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D40BE2B5E9C8100B6A5BF /* FramWorkApp.swift */; };
-		D15D40C32B5E9C8400B6A5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15D40C22B5E9C8400B6A5BF /* Assets.xcassets */; };
-		D15D40C62B5E9C8400B6A5BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15D40C52B5E9C8400B6A5BF /* Preview Assets.xcassets */; };
-		D15D40D02B5E9C8400B6A5BF /* FramWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D40CF2B5E9C8400B6A5BF /* FramWorkTests.swift */; };
-		D15D40DA2B5E9C8400B6A5BF /* FramWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D40D92B5E9C8400B6A5BF /* FramWorkUITests.swift */; };
-		D15D40DC2B5E9C8400B6A5BF /* FramWorkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D40DB2B5E9C8400B6A5BF /* FramWorkUITestsLaunchTests.swift */; };
-		D15D40E92B5EA02400B6A5BF /* FrameWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D40E82B5EA02400B6A5BF /* FrameWork.swift */; };
-		D15D40EF2B5EA29900B6A5BF /* FrameWorkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D40EE2B5EA29900B6A5BF /* FrameWorkGridView.swift */; };
+		D18FA8D22B6AAA5B0050EE0F /* NetworkPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18FA8D12B6AAA5B0050EE0F /* NetworkPlaygroundApp.swift */; };
+		D18FA8D42B6AAA5B0050EE0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18FA8D32B6AAA5B0050EE0F /* ContentView.swift */; };
+		D18FA8D62B6AAA5E0050EE0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18FA8D52B6AAA5E0050EE0F /* Assets.xcassets */; };
+		D18FA8D92B6AAA5E0050EE0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18FA8D82B6AAA5E0050EE0F /* Preview Assets.xcassets */; };
+		D18FA8E32B6AAA5F0050EE0F /* NetworkPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18FA8E22B6AAA5F0050EE0F /* NetworkPlaygroundTests.swift */; };
+		D18FA8ED2B6AAA5F0050EE0F /* NetworkPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18FA8EC2B6AAA5F0050EE0F /* NetworkPlaygroundUITests.swift */; };
+		D18FA8EF2B6AAA5F0050EE0F /* NetworkPlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18FA8EE2B6AAA5F0050EE0F /* NetworkPlaygroundUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D15D40CC2B5E9C8400B6A5BF /* PBXContainerItemProxy */ = {
+		D18FA8DF2B6AAA5F0050EE0F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D15D40B32B5E9C8100B6A5BF /* Project object */;
+			containerPortal = D18FA8C62B6AAA5B0050EE0F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D15D40BA2B5E9C8100B6A5BF;
-			remoteInfo = FramWork;
+			remoteGlobalIDString = D18FA8CD2B6AAA5B0050EE0F;
+			remoteInfo = NetworkPlayground;
 		};
-		D15D40D62B5E9C8400B6A5BF /* PBXContainerItemProxy */ = {
+		D18FA8E92B6AAA5F0050EE0F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D15D40B32B5E9C8100B6A5BF /* Project object */;
+			containerPortal = D18FA8C62B6AAA5B0050EE0F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D15D40BA2B5E9C8100B6A5BF;
-			remoteInfo = FramWork;
+			remoteGlobalIDString = D18FA8CD2B6AAA5B0050EE0F;
+			remoteInfo = NetworkPlayground;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D1019C432B60B98A002213F2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		D1019C452B60C3E8002213F2 /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
-		D1019C472B615E10002213F2 /* FrameWorkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameWorkGridViewModel.swift; sourceTree = "<group>"; };
-		D1019C492B617AC3002213F2 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
-		D15D40BB2B5E9C8100B6A5BF /* FramWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FramWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D15D40BE2B5E9C8100B6A5BF /* FramWorkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramWorkApp.swift; sourceTree = "<group>"; };
-		D15D40C22B5E9C8400B6A5BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D15D40C52B5E9C8400B6A5BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D15D40CB2B5E9C8400B6A5BF /* FramWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FramWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D15D40CF2B5E9C8400B6A5BF /* FramWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramWorkTests.swift; sourceTree = "<group>"; };
-		D15D40D52B5E9C8400B6A5BF /* FramWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FramWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D15D40D92B5E9C8400B6A5BF /* FramWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramWorkUITests.swift; sourceTree = "<group>"; };
-		D15D40DB2B5E9C8400B6A5BF /* FramWorkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramWorkUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D15D40E82B5EA02400B6A5BF /* FrameWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameWork.swift; sourceTree = "<group>"; };
-		D15D40EE2B5EA29900B6A5BF /* FrameWorkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameWorkGridView.swift; sourceTree = "<group>"; };
+		D18FA8CE2B6AAA5B0050EE0F /* NetworkPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18FA8D12B6AAA5B0050EE0F /* NetworkPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPlaygroundApp.swift; sourceTree = "<group>"; };
+		D18FA8D32B6AAA5B0050EE0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D18FA8D52B6AAA5E0050EE0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D18FA8D82B6AAA5E0050EE0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D18FA8DE2B6AAA5F0050EE0F /* NetworkPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18FA8E22B6AAA5F0050EE0F /* NetworkPlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPlaygroundTests.swift; sourceTree = "<group>"; };
+		D18FA8E82B6AAA5F0050EE0F /* NetworkPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18FA8EC2B6AAA5F0050EE0F /* NetworkPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPlaygroundUITests.swift; sourceTree = "<group>"; };
+		D18FA8EE2B6AAA5F0050EE0F /* NetworkPlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D15D40B82B5E9C8100B6A5BF /* Frameworks */ = {
+		D18FA8CB2B6AAA5B0050EE0F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D15D40C82B5E9C8400B6A5BF /* Frameworks */ = {
+		D18FA8DB2B6AAA5F0050EE0F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D15D40D22B5E9C8400B6A5BF /* Frameworks */ = {
+		D18FA8E52B6AAA5F0050EE0F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,147 +71,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D15D40B22B5E9C8100B6A5BF = {
+		D18FA8C52B6AAA5B0050EE0F = {
 			isa = PBXGroup;
 			children = (
-				D15D40BD2B5E9C8100B6A5BF /* FramWork */,
-				D15D40CE2B5E9C8400B6A5BF /* FramWorkTests */,
-				D15D40D82B5E9C8400B6A5BF /* FramWorkUITests */,
-				D15D40BC2B5E9C8100B6A5BF /* Products */,
+				D18FA8D02B6AAA5B0050EE0F /* NetworkPlayground */,
+				D18FA8E12B6AAA5F0050EE0F /* NetworkPlaygroundTests */,
+				D18FA8EB2B6AAA5F0050EE0F /* NetworkPlaygroundUITests */,
+				D18FA8CF2B6AAA5B0050EE0F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D15D40BC2B5E9C8100B6A5BF /* Products */ = {
+		D18FA8CF2B6AAA5B0050EE0F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D15D40BB2B5E9C8100B6A5BF /* FramWork.app */,
-				D15D40CB2B5E9C8400B6A5BF /* FramWorkTests.xctest */,
-				D15D40D52B5E9C8400B6A5BF /* FramWorkUITests.xctest */,
+				D18FA8CE2B6AAA5B0050EE0F /* NetworkPlayground.app */,
+				D18FA8DE2B6AAA5F0050EE0F /* NetworkPlaygroundTests.xctest */,
+				D18FA8E82B6AAA5F0050EE0F /* NetworkPlaygroundUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D15D40BD2B5E9C8100B6A5BF /* FramWork */ = {
+		D18FA8D02B6AAA5B0050EE0F /* NetworkPlayground */ = {
 			isa = PBXGroup;
 			children = (
-				D15D40BE2B5E9C8100B6A5BF /* FramWorkApp.swift */,
-				D15D40EE2B5EA29900B6A5BF /* FrameWorkGridView.swift */,
-				D1019C472B615E10002213F2 /* FrameWorkGridViewModel.swift */,
-				D1019C492B617AC3002213F2 /* SafariView.swift */,
-				D1019C432B60B98A002213F2 /* DetailView.swift */,
-				D1019C452B60C3E8002213F2 /* AFButton.swift */,
-				D15D40E82B5EA02400B6A5BF /* FrameWork.swift */,
-				D15D40C22B5E9C8400B6A5BF /* Assets.xcassets */,
-				D15D40C42B5E9C8400B6A5BF /* Preview Content */,
+				D18FA8D12B6AAA5B0050EE0F /* NetworkPlaygroundApp.swift */,
+				D18FA8D32B6AAA5B0050EE0F /* ContentView.swift */,
+				D18FA8D52B6AAA5E0050EE0F /* Assets.xcassets */,
+				D18FA8D72B6AAA5E0050EE0F /* Preview Content */,
 			);
-			path = FramWork;
+			path = NetworkPlayground;
 			sourceTree = "<group>";
 		};
-		D15D40C42B5E9C8400B6A5BF /* Preview Content */ = {
+		D18FA8D72B6AAA5E0050EE0F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D15D40C52B5E9C8400B6A5BF /* Preview Assets.xcassets */,
+				D18FA8D82B6AAA5E0050EE0F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D15D40CE2B5E9C8400B6A5BF /* FramWorkTests */ = {
+		D18FA8E12B6AAA5F0050EE0F /* NetworkPlaygroundTests */ = {
 			isa = PBXGroup;
 			children = (
-				D15D40CF2B5E9C8400B6A5BF /* FramWorkTests.swift */,
+				D18FA8E22B6AAA5F0050EE0F /* NetworkPlaygroundTests.swift */,
 			);
-			path = FramWorkTests;
+			path = NetworkPlaygroundTests;
 			sourceTree = "<group>";
 		};
-		D15D40D82B5E9C8400B6A5BF /* FramWorkUITests */ = {
+		D18FA8EB2B6AAA5F0050EE0F /* NetworkPlaygroundUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D15D40D92B5E9C8400B6A5BF /* FramWorkUITests.swift */,
-				D15D40DB2B5E9C8400B6A5BF /* FramWorkUITestsLaunchTests.swift */,
+				D18FA8EC2B6AAA5F0050EE0F /* NetworkPlaygroundUITests.swift */,
+				D18FA8EE2B6AAA5F0050EE0F /* NetworkPlaygroundUITestsLaunchTests.swift */,
 			);
-			path = FramWorkUITests;
+			path = NetworkPlaygroundUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D15D40BA2B5E9C8100B6A5BF /* FramWork */ = {
+		D18FA8CD2B6AAA5B0050EE0F /* NetworkPlayground */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D15D40DF2B5E9C8400B6A5BF /* Build configuration list for PBXNativeTarget "FramWork" */;
+			buildConfigurationList = D18FA8F22B6AAA5F0050EE0F /* Build configuration list for PBXNativeTarget "NetworkPlayground" */;
 			buildPhases = (
-				D15D40B72B5E9C8100B6A5BF /* Sources */,
-				D15D40B82B5E9C8100B6A5BF /* Frameworks */,
-				D15D40B92B5E9C8100B6A5BF /* Resources */,
+				D18FA8CA2B6AAA5B0050EE0F /* Sources */,
+				D18FA8CB2B6AAA5B0050EE0F /* Frameworks */,
+				D18FA8CC2B6AAA5B0050EE0F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FramWork;
-			productName = FramWork;
-			productReference = D15D40BB2B5E9C8100B6A5BF /* FramWork.app */;
+			name = NetworkPlayground;
+			productName = NetworkPlayground;
+			productReference = D18FA8CE2B6AAA5B0050EE0F /* NetworkPlayground.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D15D40CA2B5E9C8400B6A5BF /* FramWorkTests */ = {
+		D18FA8DD2B6AAA5F0050EE0F /* NetworkPlaygroundTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D15D40E22B5E9C8400B6A5BF /* Build configuration list for PBXNativeTarget "FramWorkTests" */;
+			buildConfigurationList = D18FA8F52B6AAA5F0050EE0F /* Build configuration list for PBXNativeTarget "NetworkPlaygroundTests" */;
 			buildPhases = (
-				D15D40C72B5E9C8400B6A5BF /* Sources */,
-				D15D40C82B5E9C8400B6A5BF /* Frameworks */,
-				D15D40C92B5E9C8400B6A5BF /* Resources */,
+				D18FA8DA2B6AAA5F0050EE0F /* Sources */,
+				D18FA8DB2B6AAA5F0050EE0F /* Frameworks */,
+				D18FA8DC2B6AAA5F0050EE0F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D15D40CD2B5E9C8400B6A5BF /* PBXTargetDependency */,
+				D18FA8E02B6AAA5F0050EE0F /* PBXTargetDependency */,
 			);
-			name = FramWorkTests;
-			productName = FramWorkTests;
-			productReference = D15D40CB2B5E9C8400B6A5BF /* FramWorkTests.xctest */;
+			name = NetworkPlaygroundTests;
+			productName = NetworkPlaygroundTests;
+			productReference = D18FA8DE2B6AAA5F0050EE0F /* NetworkPlaygroundTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D15D40D42B5E9C8400B6A5BF /* FramWorkUITests */ = {
+		D18FA8E72B6AAA5F0050EE0F /* NetworkPlaygroundUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D15D40E52B5E9C8400B6A5BF /* Build configuration list for PBXNativeTarget "FramWorkUITests" */;
+			buildConfigurationList = D18FA8F82B6AAA5F0050EE0F /* Build configuration list for PBXNativeTarget "NetworkPlaygroundUITests" */;
 			buildPhases = (
-				D15D40D12B5E9C8400B6A5BF /* Sources */,
-				D15D40D22B5E9C8400B6A5BF /* Frameworks */,
-				D15D40D32B5E9C8400B6A5BF /* Resources */,
+				D18FA8E42B6AAA5F0050EE0F /* Sources */,
+				D18FA8E52B6AAA5F0050EE0F /* Frameworks */,
+				D18FA8E62B6AAA5F0050EE0F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D15D40D72B5E9C8400B6A5BF /* PBXTargetDependency */,
+				D18FA8EA2B6AAA5F0050EE0F /* PBXTargetDependency */,
 			);
-			name = FramWorkUITests;
-			productName = FramWorkUITests;
-			productReference = D15D40D52B5E9C8400B6A5BF /* FramWorkUITests.xctest */;
+			name = NetworkPlaygroundUITests;
+			productName = NetworkPlaygroundUITests;
+			productReference = D18FA8E82B6AAA5F0050EE0F /* NetworkPlaygroundUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D15D40B32B5E9C8100B6A5BF /* Project object */ = {
+		D18FA8C62B6AAA5B0050EE0F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					D15D40BA2B5E9C8100B6A5BF = {
+					D18FA8CD2B6AAA5B0050EE0F = {
 						CreatedOnToolsVersion = 15.2;
 					};
-					D15D40CA2B5E9C8400B6A5BF = {
+					D18FA8DD2B6AAA5F0050EE0F = {
 						CreatedOnToolsVersion = 15.2;
-						TestTargetID = D15D40BA2B5E9C8100B6A5BF;
+						TestTargetID = D18FA8CD2B6AAA5B0050EE0F;
 					};
-					D15D40D42B5E9C8400B6A5BF = {
+					D18FA8E72B6AAA5F0050EE0F = {
 						CreatedOnToolsVersion = 15.2;
-						TestTargetID = D15D40BA2B5E9C8100B6A5BF;
+						TestTargetID = D18FA8CD2B6AAA5B0050EE0F;
 					};
 				};
 			};
-			buildConfigurationList = D15D40B62B5E9C8100B6A5BF /* Build configuration list for PBXProject "FramWork" */;
+			buildConfigurationList = D18FA8C92B6AAA5B0050EE0F /* Build configuration list for PBXProject "NetworkPlayground" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -229,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = D15D40B22B5E9C8100B6A5BF;
-			productRefGroup = D15D40BC2B5E9C8100B6A5BF /* Products */;
+			mainGroup = D18FA8C52B6AAA5B0050EE0F;
+			productRefGroup = D18FA8CF2B6AAA5B0050EE0F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D15D40BA2B5E9C8100B6A5BF /* FramWork */,
-				D15D40CA2B5E9C8400B6A5BF /* FramWorkTests */,
-				D15D40D42B5E9C8400B6A5BF /* FramWorkUITests */,
+				D18FA8CD2B6AAA5B0050EE0F /* NetworkPlayground */,
+				D18FA8DD2B6AAA5F0050EE0F /* NetworkPlaygroundTests */,
+				D18FA8E72B6AAA5F0050EE0F /* NetworkPlaygroundUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D15D40B92B5E9C8100B6A5BF /* Resources */ = {
+		D18FA8CC2B6AAA5B0050EE0F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D15D40C62B5E9C8400B6A5BF /* Preview Assets.xcassets in Resources */,
-				D15D40C32B5E9C8400B6A5BF /* Assets.xcassets in Resources */,
+				D18FA8D92B6AAA5E0050EE0F /* Preview Assets.xcassets in Resources */,
+				D18FA8D62B6AAA5E0050EE0F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D15D40C92B5E9C8400B6A5BF /* Resources */ = {
+		D18FA8DC2B6AAA5F0050EE0F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D15D40D32B5E9C8400B6A5BF /* Resources */ = {
+		D18FA8E62B6AAA5F0050EE0F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,54 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D15D40B72B5E9C8100B6A5BF /* Sources */ = {
+		D18FA8CA2B6AAA5B0050EE0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D15D40EF2B5EA29900B6A5BF /* FrameWorkGridView.swift in Sources */,
-				D1019C482B615E10002213F2 /* FrameWorkGridViewModel.swift in Sources */,
-				D1019C442B60B98A002213F2 /* DetailView.swift in Sources */,
-				D15D40E92B5EA02400B6A5BF /* FrameWork.swift in Sources */,
-				D1019C462B60C3E8002213F2 /* AFButton.swift in Sources */,
-				D15D40BF2B5E9C8100B6A5BF /* FramWorkApp.swift in Sources */,
-				D1019C4A2B617AC3002213F2 /* SafariView.swift in Sources */,
+				D18FA8D42B6AAA5B0050EE0F /* ContentView.swift in Sources */,
+				D18FA8D22B6AAA5B0050EE0F /* NetworkPlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D15D40C72B5E9C8400B6A5BF /* Sources */ = {
+		D18FA8DA2B6AAA5F0050EE0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D15D40D02B5E9C8400B6A5BF /* FramWorkTests.swift in Sources */,
+				D18FA8E32B6AAA5F0050EE0F /* NetworkPlaygroundTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D15D40D12B5E9C8400B6A5BF /* Sources */ = {
+		D18FA8E42B6AAA5F0050EE0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D15D40DC2B5E9C8400B6A5BF /* FramWorkUITestsLaunchTests.swift in Sources */,
-				D15D40DA2B5E9C8400B6A5BF /* FramWorkUITests.swift in Sources */,
+				D18FA8EF2B6AAA5F0050EE0F /* NetworkPlaygroundUITestsLaunchTests.swift in Sources */,
+				D18FA8ED2B6AAA5F0050EE0F /* NetworkPlaygroundUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D15D40CD2B5E9C8400B6A5BF /* PBXTargetDependency */ = {
+		D18FA8E02B6AAA5F0050EE0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D15D40BA2B5E9C8100B6A5BF /* FramWork */;
-			targetProxy = D15D40CC2B5E9C8400B6A5BF /* PBXContainerItemProxy */;
+			target = D18FA8CD2B6AAA5B0050EE0F /* NetworkPlayground */;
+			targetProxy = D18FA8DF2B6AAA5F0050EE0F /* PBXContainerItemProxy */;
 		};
-		D15D40D72B5E9C8400B6A5BF /* PBXTargetDependency */ = {
+		D18FA8EA2B6AAA5F0050EE0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D15D40BA2B5E9C8100B6A5BF /* FramWork */;
-			targetProxy = D15D40D62B5E9C8400B6A5BF /* PBXContainerItemProxy */;
+			target = D18FA8CD2B6AAA5B0050EE0F /* NetworkPlayground */;
+			targetProxy = D18FA8E92B6AAA5F0050EE0F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		D15D40DD2B5E9C8400B6A5BF /* Debug */ = {
+		D18FA8F02B6AAA5F0050EE0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -378,7 +358,7 @@
 			};
 			name = Debug;
 		};
-		D15D40DE2B5E9C8400B6A5BF /* Release */ = {
+		D18FA8F12B6AAA5F0050EE0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -434,14 +414,14 @@
 			};
 			name = Release;
 		};
-		D15D40E02B5E9C8400B6A5BF /* Debug */ = {
+		D18FA8F32B6AAA5F0050EE0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FramWork/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NetworkPlayground/Preview Content\"";
 				DEVELOPMENT_TEAM = 568SNGB3DW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -455,7 +435,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Simple-Project.FramWork";
+				PRODUCT_BUNDLE_IDENTIFIER = "Simple-Project.NetworkPlayground";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -463,14 +443,14 @@
 			};
 			name = Debug;
 		};
-		D15D40E12B5E9C8400B6A5BF /* Release */ = {
+		D18FA8F42B6AAA5F0050EE0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FramWork/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NetworkPlayground/Preview Content\"";
 				DEVELOPMENT_TEAM = 568SNGB3DW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -484,7 +464,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Simple-Project.FramWork";
+				PRODUCT_BUNDLE_IDENTIFIER = "Simple-Project.NetworkPlayground";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -492,7 +472,7 @@
 			};
 			name = Release;
 		};
-		D15D40E32B5E9C8400B6A5BF /* Debug */ = {
+		D18FA8F62B6AAA5F0050EE0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -503,16 +483,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Simple-Project.FramWorkTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Simple-Project.NetworkPlaygroundTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FramWork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FramWork";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkPlayground.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetworkPlayground";
 			};
 			name = Debug;
 		};
-		D15D40E42B5E9C8400B6A5BF /* Release */ = {
+		D18FA8F72B6AAA5F0050EE0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -523,16 +503,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Simple-Project.FramWorkTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Simple-Project.NetworkPlaygroundTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FramWork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FramWork";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkPlayground.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetworkPlayground";
 			};
 			name = Release;
 		};
-		D15D40E62B5E9C8400B6A5BF /* Debug */ = {
+		D18FA8F92B6AAA5F0050EE0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -541,16 +521,16 @@
 				DEVELOPMENT_TEAM = 568SNGB3DW;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Simple-Project.FramWorkUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Simple-Project.NetworkPlaygroundUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FramWork;
+				TEST_TARGET_NAME = NetworkPlayground;
 			};
 			name = Debug;
 		};
-		D15D40E72B5E9C8400B6A5BF /* Release */ = {
+		D18FA8FA2B6AAA5F0050EE0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -559,55 +539,55 @@
 				DEVELOPMENT_TEAM = 568SNGB3DW;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Simple-Project.FramWorkUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Simple-Project.NetworkPlaygroundUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FramWork;
+				TEST_TARGET_NAME = NetworkPlayground;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D15D40B62B5E9C8100B6A5BF /* Build configuration list for PBXProject "FramWork" */ = {
+		D18FA8C92B6AAA5B0050EE0F /* Build configuration list for PBXProject "NetworkPlayground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D15D40DD2B5E9C8400B6A5BF /* Debug */,
-				D15D40DE2B5E9C8400B6A5BF /* Release */,
+				D18FA8F02B6AAA5F0050EE0F /* Debug */,
+				D18FA8F12B6AAA5F0050EE0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D15D40DF2B5E9C8400B6A5BF /* Build configuration list for PBXNativeTarget "FramWork" */ = {
+		D18FA8F22B6AAA5F0050EE0F /* Build configuration list for PBXNativeTarget "NetworkPlayground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D15D40E02B5E9C8400B6A5BF /* Debug */,
-				D15D40E12B5E9C8400B6A5BF /* Release */,
+				D18FA8F32B6AAA5F0050EE0F /* Debug */,
+				D18FA8F42B6AAA5F0050EE0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D15D40E22B5E9C8400B6A5BF /* Build configuration list for PBXNativeTarget "FramWorkTests" */ = {
+		D18FA8F52B6AAA5F0050EE0F /* Build configuration list for PBXNativeTarget "NetworkPlaygroundTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D15D40E32B5E9C8400B6A5BF /* Debug */,
-				D15D40E42B5E9C8400B6A5BF /* Release */,
+				D18FA8F62B6AAA5F0050EE0F /* Debug */,
+				D18FA8F72B6AAA5F0050EE0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D15D40E52B5E9C8400B6A5BF /* Build configuration list for PBXNativeTarget "FramWorkUITests" */ = {
+		D18FA8F82B6AAA5F0050EE0F /* Build configuration list for PBXNativeTarget "NetworkPlaygroundUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D15D40E62B5E9C8400B6A5BF /* Debug */,
-				D15D40E72B5E9C8400B6A5BF /* Release */,
+				D18FA8F92B6AAA5F0050EE0F /* Debug */,
+				D18FA8FA2B6AAA5F0050EE0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D15D40B32B5E9C8100B6A5BF /* Project object */;
+	rootObject = D18FA8C62B6AAA5B0050EE0F /* Project object */;
 }
