@@ -10,28 +10,28 @@ import SwiftUI
 struct FrameWorkGridView: View {
     @StateObject var viewModel = FramWorkGridViewModel()
    
-    let columns: [GridItem] = [GridItem(.flexible()),
-                                GridItem(.flexible()),
-                                GridItem(.flexible())]
-    
+  
     var body: some View {
-        NavigationView{
+        NavigationStack{
             ScrollView{
-                LazyVGrid(columns:columns){
-                    ForEach(MockData.frameworks, id: \.id  )
+                LazyVGrid(columns:viewModel.columns){
+                    ForEach(MockData.frameworks  )
                     {
                         FrameWork in
+                        NavigationLink(value: FrameWork){
+                            
+                            FrameWorkGridTitleView(frameWork: FrameWork)
+                        }
                         
-                        FrameWorkGridTitleView(frameWork: FrameWork)
-                            .onTapGesture{
-                                viewModel.SelectedFrameWork = FrameWork
-                            }
+                           
                     }
                 }
                 .navigationTitle("FramWork")
-                .sheet(isPresented: $viewModel.isShowingDeafultView){
-                    DetailView(isShowingDetailView: $viewModel.isShowingDeafultView, framework: viewModel.SelectedFrameWork ?? MockData.sampleFramework)
+                .navigationDestination(for:Framework.self){
+                    Framework in
+                   DetailView( framework: Framework)
                 }
+                
             }
         }
     }

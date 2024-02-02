@@ -8,14 +8,13 @@
 import SwiftUI
 
 final class FramWorkGridViewModel: ObservableObject{
-    var SelectedFrameWork: Framework?{
-        didSet{
-            isShowingDeafultView = true
-        }
-    }
     
     
-   @Published var isShowingDeafultView = false
+    let columns: [GridItem] = [GridItem(.flexible()),
+                                GridItem(.flexible()),
+                                GridItem(.flexible())]
+    
+    
     
     
     
